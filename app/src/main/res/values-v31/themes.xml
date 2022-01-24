@@ -3,7 +3,6 @@
 
     <style name="Theme.MyApplication" parent="AppTheme">
         <item name="android:windowSplashScreenBackground">@color/toolbar_gradient_end</item>
-        <item name="android:windowSplashScreenBrandingImage">@mipmap/ic_launcher</item>
     </style>
 
 </resources>
