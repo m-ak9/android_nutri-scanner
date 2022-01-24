@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingStart="25dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nutri_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/nutri_title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/nutrient_fat_lip_level"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="start|center"
+
+                android:background="@drawable/shape"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nutri_fat_lip"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fat_lip_quantity"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/nutri_fat_lip_eval"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fat_lip_quantity_eval"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/nutrient_saturate_fat_acid_level"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="start|center"
+                android:background="@drawable/shape"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nutri_saturate_fat_acid"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/acid_fat_quantity"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/nutri_saturate_fat_acid_eval"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/acid_fat_quantity_eval"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/nutrient_sugar_level"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="start|center"
+                android:background="@drawable/shape"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nutri_sugar"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sugar_quantity"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/nutri_sugar_eval"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sugar_quantity_eval"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/nutrient_salt_level"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="start|center"
+                android:background="@drawable/shape"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nutri_salt"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/salt_quantity"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/nutri_salt_eval"
+                    android:layout_gravity="start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/salt_quantity_eval"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/productDetailsSummaryFragment">
+    <fragment
+        android:id="@+id/productDetailsSummaryFragment"
+        android:name="com.maknine.androidCC.fragments.ProductDetailsSummaryFragment"
+        android:label="product_details_summary_fragment"
+        tools:layout="@layout/product_details_summary_fragment" >
+        <argument android:name="Product" />
+    </fragment>
+    <fragment
+        android:id="@+id/productDetailsNutritionFragment"
+        android:name="com.maknine.androidCC.fragments.ProductDetailsNutritionFragment"
+        android:label="ProductDetailsNutritionFragment"
+        tools:layout="@layout/product_details_nutrition_fragment">
+        <argument android:name="Product" />
+    </fragment>
+    <fragment
+        android:id="@+id/productDetailsNutritionalValuesFragment"
+        android:name="com.maknine.androidCC.fragments.ProductDetailsNutritionalValuesFragment"
+        android:label="product_details_nutritional_values_fragment"
+        tools:layout="@layout/product_details_nutritional_values_fragment" >
+        <argument android:name="Product" />
+    </fragment>
+</navigation>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My app</string>
+    <string name="codes_barres">Codes barres : %1$s</string>
+    <string name="quantity">Quantité : %1$s</string>
+    <string name="cal_part">%1$s kCal/part</string>
+    <string name="sell_in">Vendu en : %1$s</string>
+    <string name="fat_lip_quantity">%1$s de Matière grasses / Lipides</string>
+    <string name="product_ingredients">Ingrédients : %1$s</string>
+    <string name="product_substances">Substances allergènes : %1$s</string>
+    <string name="product_additive">Additifs : %1$s</string>
+    <string name="nutriscore_e_desc">Nutriscore E</string>
+    <string name="nutriscore_desc">Nutriscore : %1$s</string>
+    <string name="product_title">%1$s</string>
+    <string name="product_subTitle">%1$s</string>
+    <string name="nutri_title">"Repères nutritionnels pour %1$s"</string>
+    <string name="acid_fat_quantity">%1$s d\'acides gras saturés</string>
+    <string name="fat_lip_quantity_eval">en %1$s</string>
+    <string name="acid_fat_quantity_eval">en %1$s</string>
+    <string name="sugar_quantity_eval">en %1$s</string>
+    <string name="salt_quantity_eval">en %1$s</string>
+    <string name="sugar_quantity">%1$s de sucres</string>
+    <string name="salt_quantity">%1$s g Sel</string>
+    <string name="tab_fiche">Fiche</string>
+    <string name="tab_nutrition">Nutrition</string>
+    <string name="tab_grid">Tableau</string>
+    <string name="click_here_to_scan">Cliquez sur le bouton ci-dessous pour commencer.</string>
+    <string name="empty_history">Vous n\'avez encore rien scanné !</string>
+    <string name="button_scan_product">SCANNER UN PRODUIT</string>
+</resources>
